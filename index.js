@@ -9,10 +9,13 @@ const orderRoutes = require("./routes/order");
 const cartRoutes = require("./routes/cart");
 const cors = require("cors");
 
+
 //for strictQuery warning
 mongoose.set('strictQuery', true);
-
 dotenv.config()
+
+app.use(express.json({limit: '50mb'}));
+// app.use(express.urlencoded({limit: '50mb'}));
 
 mongoose.connect(process.env.MONGO_URL)
     .then(() => console.log("DB Connection succesfully"))
