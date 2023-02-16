@@ -9,6 +9,9 @@ const orderRoutes = require("./routes/order");
 const cartRoutes = require("./routes/cart");
 const cors = require("cors");
 
+//for strictQuery warning
+mongoose.set('strictQuery', true);
+
 dotenv.config()
 
 mongoose.connect(process.env.MONGO_URL)

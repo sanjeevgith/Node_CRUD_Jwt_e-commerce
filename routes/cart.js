@@ -33,7 +33,8 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
 
 
 
-router.delete("/:id", verifyTokenAndAuthorization, async (req, res) => {
+// router.delete("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
+router.delete("/find/:id", verifyToken, async (req, res) => {
     try {
         await cartModel.findByIdAndDelete(req.params.id);
         res.status(200).json("Product has been deleted...");
@@ -43,12 +44,16 @@ router.delete("/:id", verifyTokenAndAuthorization, async (req, res) => {
 });
 
 
+
+
+
 //get user cart
 //verifyToken
 // router.get("/find/:userId", verifyTokenAndAuthorization, async (req, res) => {
 router.get("/find/:userId", verifyToken, async (req, res) => {
     try {
-        const cart = await cartModel.findOne({ userId: req.params.userId });
+        //const cart = await cartModel.findOne({ userId: req.params.userId });
+        const cart = await cartModel.find({ userId: req.params.userId });
         res.status(200).json(cart);
     } catch (err) {
         res.status(500).json(err);
