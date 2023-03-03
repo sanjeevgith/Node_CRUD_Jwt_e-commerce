@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "63ec65ebb700e50cfa349062"
+  },
+  "userId": "63de126fae25bf38c9cdd3d2",
+  "products": [
+    {
+      "productId": "63e3809a8c6796c57939c7a6",
+      "quantity": 3,
+      "img": "https://rukminim1.flixcart.com/image/612/612/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "price": 9999,
+      "title": "Puma hoodie plus Sweatshirt Two In One ",
+      "_id": {
+        "$oid": "63ec65ebb700e50cfa349063"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676436971793"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676436971793"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ee0d99f44c80eea43a808c"
+  },
+  "userId": "63de126fae25bf38c9cdd3d2",
+  "products": [
+    {
+      "productId": "63e47c4e1fa9f3bcf22b0ced",
+      "quantity": 1,
+      "img": "https://rukminim1.flixcart.com/image/280/280/ky3b0y80/edible-oil/t/7/i/-original-imagaefdffjnxsdm.jpeg?q=70",
+      "price": 1200,
+      "title": "Saffola Total Refined Cooking Rice Bran &amp; Safflower Blended Oil Pouch",
+      "_id": {
+        "$oid": "63ee0d99f44c80eea43a808d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676545433425"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676545433425"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ef17960f146797d073d7a9"
+  },
+  "userId": "63de126fae25bf38c9cdd3d2",
+  "products": [
+    {
+      "productId": "63e395fb8c6796c57939c7da",
+      "quantity": 2,
+      "img": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/a/p/r/-original-imagkgrxwg386pjk.jpeg?q=70",
+      "price": 1200,
+      "title": "Infinix HOT 20 Play (Fantasy Purple, 64 GB)",
+      "_id": {
+        "$oid": "63ef17960f146797d073d7aa"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676613526604"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676613526604"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ef24570f146797d073d80d"
+  },
+  "userId": "63ef24450f146797d073d805",
+  "products": [
+    {
+      "productId": "63e47c4e1fa9f3bcf22b0ced",
+      "quantity": 5,
+      "img": "https://rukminim1.flixcart.com/image/280/280/ky3b0y80/edible-oil/t/7/i/-original-imagaefdffjnxsdm.jpeg?q=70",
+      "price": 1200,
+      "title": "Saffola Total Refined Cooking Rice Bran &amp; Safflower Blended Oil Pouch",
+      "_id": {
+        "$oid": "63ef24570f146797d073d80e"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676616791852"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676616791852"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ef26fc0f146797d073d83f"
+  },
+  "userId": "63ef24450f146797d073d805",
+  "products": [
+    {
+      "productId": "63e3808b8c6796c57939c7a4",
+      "quantity": 1,
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/g/7/m/xxs-wt22-tb-eyebogler-original-imagg68uqbjrdpmm.jpeg?q=70",
+      "price": 9999,
+      "title": "roadster Hoodie bumper Man Full Sleeve ",
+      "_id": {
+        "$oid": "63ef26fc0f146797d073d840"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676617468213"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676617468213"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f855e659a71d06eeb472d2"
+  },
+  "userId": "63ec9069ba1b62b51d146435",
+  "products": [
+    {
+      "productId": "63e0ab3298746edb1bec1794",
+      "quantity": 2,
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/4/c/i/l-st2-vebnor-original-imagmg2wm2bbbddc.jpeg?q=70",
+      "price": 400,
+      "title": "roadster shirt for men ",
+      "_id": {
+        "$oid": "63f855e659a71d06eeb472d3"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677219302599"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677219302599"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f8620f2e5e095fb866f8f6"
+  },
+  "userId": "63de327c8e6a9f01ac46f901",
+  "products": [
+    {
+      "productId": "63e3989c8c6796c57939c7e3",
+      "quantity": 2,
+      "img": "https://rukminim1.flixcart.com/image/312/312/kynb6vk0/monitor/1/n/s/lf22t354fhwxxl-full-hd-22-lf22t354fhwxxl-samsung-original-imagats2rjbg9uhv.jpeg?q=70",
+      "price": 7998,
+      "title": "SAMSUNG 22 inch Full HD IPS Panel Monitor (LF22T354FHWXXL)",
+      "_id": {
+        "$oid": "63f8620f2e5e095fb866f8f7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677222415555"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677222415555"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f8622e2e5e095fb866f901"
+  },
+  "userId": "63ec9069ba1b62b51d146435",
+  "products": [
+    {
+      "productId": "63e398d18c6796c57939c7e5",
+      "quantity": 2,
+      "img": "https://rukminim1.flixcart.com/image/612/612/l1whaq80/mouse/h/9/h/-original-imagdcx2kuyxeyyt.jpeg?q=70",
+      "price": 998,
+      "title": "HP x1000 Wired Optical Mouse",
+      "_id": {
+        "$oid": "63f8622e2e5e095fb866f902"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677222446500"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677222446500"
+    }
+  },
+  "__v": 0
+}]

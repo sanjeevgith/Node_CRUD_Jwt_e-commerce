@@ -14,8 +14,10 @@ const cors = require("cors");
 mongoose.set('strictQuery', true);
 dotenv.config()
 
+
+//img file to long solution is 
 app.use(express.json({limit: '50mb'}));
-// app.use(express.urlencoded({limit: '50mb'}));
+
 
 mongoose.connect(process.env.MONGO_URL)
     .then(() => console.log("DB Connection succesfully"))
