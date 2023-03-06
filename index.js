@@ -7,6 +7,7 @@ const authRoutes = require("./routes/auth");
 const productRoutes = require("./routes/product");
 const orderRoutes = require("./routes/order");
 const cartRoutes = require("./routes/cart");
+const paymentRoutes = require("./routes/payment")
 const cors = require("cors");
 
 
@@ -30,6 +31,7 @@ app.use("/api/users", userRoutes)
 app.use("/api/products", productRoutes)
 app.use("/api/orders", orderRoutes)
 app.use("/api/cart", cartRoutes)
+app.use("/api/payment",paymentRoutes)
 
 app.listen(process.env.PORT || 5000, () => {
     console.log("Backend Server is Running");

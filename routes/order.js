@@ -7,6 +7,26 @@ const router = require('express').Router();
 
 
 
+router.get("/findorder",verifyToken, async (req, res) => {
+    try {
+        const order = await orderModel.find();
+        res.status(200).json(order);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+router.get("/findorder/:userId", verifyToken, async (req, res) => {
+    try {
+        const order = await orderModel.find({ userId: req.params.userId });
+        res.status(200).json(order);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+
+
 router.post("/", verifyToken, async (req, res) => {
     const newOrder = new orderModel(req.body);
     try {
@@ -46,14 +66,14 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
 
 
 //get user order
-router.get("/find/:userId", verifyTokenAndAuthorization, async (req, res) => {
-    try {
-        const order = await orderModel.find({ userId: req.params.userId });
-        res.status(200).json(order);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-});
+// router.get("/find/:userId", verifyTokenAndAuthorization, async (req, res) => {
+//     try {
+//         const order = await orderModel.find({ userId: req.params.userId });
+//         res.status(200).json(order);
+//     } catch (err) {
+//         res.status(500).json(err);
+//     }
+// });
 
 
 //get all 
